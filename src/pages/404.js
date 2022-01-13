@@ -1,5 +1,5 @@
 import * as React from "react"
-import { navigate } from 'gatsby';
+import { Link } from 'gatsby';
 import Styled from 'styled-components';
 
 import { PageWrapper, Button } from "../components/common"
@@ -18,12 +18,18 @@ const NotFoundWrapper = Styled.div`
   }
 `;
 
+const BackLink = Styled(Link)`
+  padding: 20px 40px;
+  background: #000;
+  color: white;
+`;
+
 const NotFoundPage = () => (
     <PageWrapper>
       <Seo title="404" />
       <NotFoundWrapper>
         <h1>404</h1>
-        <Button onClick={() => navigate(-1) }>GO BACK</Button>
+        <BackLink to="/">GO BACK</BackLink>
       </NotFoundWrapper>
     </PageWrapper>
 )
