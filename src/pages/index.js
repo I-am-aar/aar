@@ -61,7 +61,7 @@ const IndexPage = () => (
       data-sal-delay='200'
       data-sal-easing='easeInQuad'
     >
-      <video autoPlay loop>
+      <video autoPlay muted loop>
         <source src={portfolioMovie} type="video/mp4" />
       </video>
     </Herobanner>
