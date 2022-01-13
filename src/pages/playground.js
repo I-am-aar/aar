@@ -27,12 +27,7 @@ const Playground = () => (
     <PageWrapper>
         <Seo title="Playground" />
         <Back/>
-        <PlaygroundWrapper
-            data-sal='slide-up'
-            data-sal-duration='1000'
-            data-sal-delay='200'
-            data-sal-easing='easeInQuad'
-        >
+        <PlaygroundWrapper>
             <TextWrapper>
                 <h2>Playground</h2>
                 <p>
