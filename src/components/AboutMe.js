@@ -32,12 +32,7 @@ const Contact = Styled.div`
 `;
 
 const AboutMe = () => (
-    <AboutWrapper
-        data-sal='slide-up'
-        data-sal-duration='1000'
-        data-sal-delay='200'
-        data-sal-easing='easeInQuad'
-    >
+    <AboutWrapper>
         <TextWrapper>
             <h1>I am</h1>
             <p>

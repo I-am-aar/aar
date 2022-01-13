@@ -31,12 +31,7 @@ const AboutText = Styled.div`
 `
 
 const AboutSite = () => (
-    <AboutWrapper
-        data-sal='slide-up'
-        data-sal-duration='1000'
-        data-sal-delay='200'
-        data-sal-easing='easeInQuad'
-    >
+    <AboutWrapper>
         <video autoPlay loop>
             <source src={AboutSiteMov} type="video/mp4" />
         </video>

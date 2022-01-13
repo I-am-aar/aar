@@ -82,12 +82,7 @@ const Stories = (props) => {
     <PageWrapper>   
         <Seo title="Stories" />
         <Back /> 
-        <ContentWrapper
-            data-sal='slide-up'
-            data-sal-duration='1000'
-            data-sal-delay='200'
-            data-sal-easing='easeInQuad'
-        >
+        <ContentWrapper>
             <TextWrapper>
                 <h1>Stories</h1>
                 <p>
