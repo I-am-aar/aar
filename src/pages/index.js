@@ -4,7 +4,7 @@ import Styled from 'styled-components';
 import { PageWrapper } from '../components/common';
 import Info from '../components/Info';
 import ImgAAR from '../assets/images/aar_img.png';
-import portfolioMovie from '../assets/videos/portfolio_movie.mp4';
+import portfolioMovie from '../assets/videos/port_mov.mp4';
 import Seo from "../components/seo"
 
 const Herobanner = Styled.div`
